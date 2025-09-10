@@ -9,6 +9,7 @@
     width: 500px;
     height: auto
     margin-left 20px;
+    border-radius: 16px;
 }
 
 body {
@@ -63,3 +64,7 @@ body {
     color: #000000;
     font-family: "Montserrat", sans-serif;
 }   
+
+.bordas__foto {
+    border-radius: 32px;
+}
