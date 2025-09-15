@@ -13,7 +13,7 @@
 }
 
 body {
-    height: 100vh;
+    /* height: 100vh; */
     box-sizing: border-box;
     width: 100%;
     padding: 5px;
@@ -26,7 +26,7 @@ body {
 }
 
 .apresentacao {
-    margin: 5% 15%;
+    padding: 8% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -67,6 +67,9 @@ body {
 
 .apresentacao__links__link {
     /* background-color: #22D4FD; */
+    display: flex;
+    justify-content: center;
+    gap: 16px;
     border: 2px solid #22D4FD;
     width: 378px;
     text-align: center;
@@ -77,4 +80,21 @@ body {
     text-decoration: none;
     color: #f6f6f6;
     font-family: "Montserrat", sans-serif;
+}
+
+.apresentacao__links__link:hover {
+    background-color: #272727;
+    padding: 24px 0;
+    color: #c501e2;
+    cursor: pointer;
+}
+
+.rodape {
+    padding: 24px 0;
+    color: #000000;
+    background-color: #22D4FD;
+    text-align: center;    
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
 }
