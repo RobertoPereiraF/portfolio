@@ -119,3 +119,7 @@ body {
     font-size: 24px;
     font-weight: 400;
 }
+
+.certificado__link:hover {
+    color: #c501e2;
+  }
